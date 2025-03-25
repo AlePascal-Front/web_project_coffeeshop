@@ -20,6 +20,7 @@
   position: relative;
 }
 
+/* Sets height to auto so that the nav block doesn't grow larger than its content */
 .nav {
   height: auto;
 }
@@ -58,6 +59,7 @@
   max-height: 800px;
 }
 
+/* Sets whitespace property to pre-line in order to add a breakline */
 .header__title {
   max-width: 709px;
   margin-bottom: 28px;
