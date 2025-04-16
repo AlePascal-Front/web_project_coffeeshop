@@ -234,12 +234,14 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-bottom: 80px;
 }
 
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .form > fieldset {
@@ -252,6 +254,7 @@
   padding: 0;
   position: absolute;
   bottom: 120px;
+  transform: translateY(100px);
 }
 
 .form__label {
@@ -271,8 +274,8 @@
 .form__item {
   width: 385px;
   height: 60px;
-  box-sizing: border-box;
   padding: 15px;
+  box-sizing: border-box;
   margin-bottom: 32px;
   border-radius: 5px;
 }
