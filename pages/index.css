@@ -239,6 +239,7 @@
 .form {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .form > fieldset {
@@ -247,27 +248,65 @@
   flex-direction: column;
   align-items: center;
   border: none;
-  background-color: red;
+  /* background-color: red; */
   padding: 0;
   position: absolute;
   bottom: 120px;
 }
 
 .form__label {
+  padding-bottom: 8px;
   align-self: flex-start;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
+
+/* .form__label:last-of-type {
+  display: inline;
+} */
 
 .form__item {
   width: 385px;
   height: 60px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 15px;
+  margin-bottom: 32px;
+  border-radius: 5px;
 }
 
 input[type="number"] {
   width: 385px;
 }
 
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
 .form__item::placeholder {
   font-size: 20px;
+}
+
+.form__submit {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  color: #fff;
+  background: #2f80ed;
+  border: none;
+  border-radius: 5px;
+}
+
+.checkbox__container {
+  display: flex;
+  gap: 12px;
 }
