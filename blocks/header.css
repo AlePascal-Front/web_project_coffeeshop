@@ -10,10 +10,6 @@
   position: relative;
 }
 
-.hader__paragraph {
-  color: #6f6f6f;
-}
-
 .header__content {
   min-height: 720px;
   max-height: 800px;
@@ -79,4 +75,8 @@
   right: 80px;
   bottom: 0;
   color: #838383;
+}
+
+.hader__paragraph {
+  color: #6f6f6f;
 }
