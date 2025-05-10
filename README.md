@@ -27,4 +27,3 @@ In the future, I'd like to:
 
 ---
 
-© 2025 Tobi
