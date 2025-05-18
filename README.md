@@ -25,5 +25,9 @@ In the future, I'd like to:
 - Add **responsive rules** using media queries.
 - Implement **hover effects** for buttons and interactive elements.
 
+## GITHUB PAGES SITE
+
+- https://alepascal-front.github.io/web_project_coffeeshop/
+
 ---
 
