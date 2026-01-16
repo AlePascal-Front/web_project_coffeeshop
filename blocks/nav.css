@@ -34,3 +34,15 @@
 .nav__link:hover {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .nav__logo {
+    position: static;
+  }
+
+  .nav__links {
+    position: static;
+    width: 100%;
+    outline: 1px solid lime;
+  }
+}
