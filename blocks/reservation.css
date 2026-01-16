@@ -26,3 +26,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .reservation__content {
+    position: static;
+    transform: translate(0, 0);
+  }
+
+  .reservation__title {
+    margin-bottom: 0;
+  }
+}
